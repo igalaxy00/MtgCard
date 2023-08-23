@@ -8,8 +8,10 @@ Learned and worked with:
 - Retrofit
 - StateFlow
 - Coroutines
-  
-  Screenshots:
+
+TODO: Fix FrameLayout
+
+Screenshots:
 ------------------------
 ![](img/im1.png)
 ![](img/im2.png)
