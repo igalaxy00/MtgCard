@@ -9,7 +9,7 @@ Learned and worked with:
 - StateFlow
 - Coroutines
 
-TODO: Fix FrameLayout
+TODO: DI
 
 Screenshots:
 ------------------------
