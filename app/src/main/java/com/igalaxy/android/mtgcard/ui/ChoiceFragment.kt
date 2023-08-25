@@ -2,7 +2,6 @@ package com.igalaxy.android.mtgcard.ui
 
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -44,7 +43,7 @@ class ChoiceFragment : Fragment() {
             choiceViewModel.stateFlow.collect {
 
                 cardPhoto.load(it?.body()?.image_uris?.png)
-                cardPhoto.scaleType = ImageView.ScaleType.FIT_END
+                cardPhoto.scaleType = ImageView.ScaleType.FIT_CENTER
                 generateCard.isEnabled = true
             }
         }
